@@ -60,7 +60,7 @@ public final class PANEL extends JPanel implements ActionListener ,KeyListener{
     
  
     public void start(){
-      this.setBounds(25,0,SİZE_WİDTH, SİZE_LENGHT);
+      this.setBounds(0,0,SİZE_WİDTH, SİZE_LENGHT);
         this.setPreferredSize(new Dimension(SİZE_WİDTH,SİZE_LENGHT));
         this.setLayout(null);
         this.setBackground(Color.white);
