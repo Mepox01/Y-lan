@@ -164,12 +164,12 @@ public final class PANEL extends JPanel implements ActionListener ,KeyListener{
                 // 600/600 cikarsa oyunu karsi panelden cik
            if(bodyy[0]<0){
              bodyy[0]=600;}
-            if(bodyy[0]>SİZE_LENGHT-25){
+           else if(bodyy[0]>SİZE_LENGHT-25){
                 bodyy[0]=-25;
             }
            if(bodyx[0]<0){
              bodyx[0]=600;}
-            if(bodyx[0]>SİZE_WİDTH-25){
+           else if(bodyx[0]>SİZE_WİDTH-25){
                 bodyx[0]=-25;
             }
                
