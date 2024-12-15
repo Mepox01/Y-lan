@@ -53,8 +53,9 @@ public class GameThread extends JPanel implements ActionListener{
    @Override
     public void actionPerformed(ActionEvent e) {
         
-        if(time>0&& pl.getBodyx()!=0){
+        if(time>0&& pl.getBodyx()!=x){
             time--;
+           x=-100;
              repaint();
             }else if(time==0)
             pl.setDevam(false);
